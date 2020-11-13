@@ -32,14 +32,14 @@ git clone https://github.com/victorxie996/PhD_test.git
 ```
 cd PhD_test
 ```
-4. Create and activate virtual environment
+4. Create and activate virtual environment (when [#c5f015](env) shows)
 ```
 pip3 venv env. env\bin\activate
-```
+
 or 
-```
+
 .\env\Scripts\activate
 ```
-
+5. Install required library
 
 
