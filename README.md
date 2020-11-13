@@ -32,7 +32,9 @@ git clone https://github.com/victorxie996/PhD_test.git
 ```
 cd PhD_test
 ```
-4. Create and activate virtual environment (when ```diff +env```
+4. Create and activate virtual environment (when <div class="bg-green-light mb-2">
+  .text-gray-dark on .bg-green-light
+</div>
 shows)
 ```
 pip3 venv env. env\bin\activate
