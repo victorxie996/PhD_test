@@ -32,10 +32,7 @@ git clone https://github.com/victorxie996/PhD_test.git
 ```
 cd PhD_test
 ```
-4. Create and activate virtual environment (when <div class="bg-green-light mb-2">
-  .text-gray-dark on .bg-green-light
-</div>
-shows)
+4. Create, activate and get into the virtual environment 
 ```
 pip3 venv env. env\bin\activate
 
@@ -45,6 +42,16 @@ or
 ```
 5. Install required library
 ```
-
+pip3 install -r requirements.txt
 ```
+6. Install spacy english model
+```
+python3 -m spacy download en
+```
+7. run Flask server in virtual environment
+```
+bash start.sh
+```
+
+
 
