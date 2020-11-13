@@ -32,7 +32,8 @@ git clone https://github.com/victorxie996/PhD_test.git
 ```
 cd PhD_test
 ```
-4. Create and activate virtual environment (when ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=env) `#env` shows)
+4. Create and activate virtual environment (when ```diff +env```
+shows)
 ```
 pip3 venv env. env\bin\activate
 
