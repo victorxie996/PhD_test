@@ -71,4 +71,13 @@ After get starting the server, the server looks like:
 ![image](https://github.com/victorxie996/PhD_test/blob/main/demo/bug_img.png)
 Next, type the address on a broswer: http://127.0.0.1:5000/?text= ```the news you would like to feed into the model```, press ENTER and the server will return text summary and prediction of whether the it is a true news.
 
+Demonstration
+-------
+Lets say we want to input a news:
+```
+text= Billionaire Elon Musk has shared a time-lapse video of the setting up of his space exploration startup SpaceX's Falcon Heavy rocket. The rocket, which is dubbed by SpaceX as the world's most powerful rocket, is set to launch this month. Earlier, Musk said that the Falcon Heavy rocket will carry his 'midnight cherry' Tesla Roadster car to Mars.
+```
+
+The output of the model looks like: 
+![image](https://github.com/victorxie996/PhD_test/blob/main/demo/result.png)
 
