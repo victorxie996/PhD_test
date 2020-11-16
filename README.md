@@ -1,15 +1,18 @@
-## PhD_test
+PhD_test
+====
 My PhD programming test
 
-# Introduction
+Introduction
+-------
 We use a seq2seq abstractive text summarisation model based on GRU encoder decoder with attention mechanism.
 
-# Base Info
-
+Base Info
+-------
 Data: News summary dataset obtained from [Kaggle](https://www.kaggle.com/sunnysai12345/news-summary?select=news_summary_more.csv)
 
 
-# Requirements
+Requirements
+-------
 ```
 Python 3
 ```
@@ -19,7 +22,8 @@ Pip
 ```
 
 
-# Installation
+Installation
+-------
 1. Download venv and setup virtual envirement
 ```
 pip3 install virtualenv
@@ -61,7 +65,8 @@ OR
 ./start.sh
 ```
 
-# Usage
+Usage
+-------
 After get starting the server, the server looks like: 
 ![image](https://github.com/victorxie996/PhD_test/blob/main/demo/bug_img.png)
 Next, type the address on a broswer: http://127.0.0.1:5000/?text= ```the news you would like to feed into the model```, press ENTER and the server will return text summary and prediction of whether the it is a true news.
