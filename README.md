@@ -82,6 +82,6 @@ text= Several Bengaluru civic workers protested in front of the Bruhat Bengaluru
 
 The output of the model looks like: 
 
-![image](https://github.com/victorxie996/PhD_test/blob/main/demo/result.png)
+![image](https://github.com/victorxie996/PhD_test/blob/main/demo/result_1.png)
 
 I hope you find it useful!:)
