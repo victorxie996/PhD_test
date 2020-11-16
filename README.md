@@ -48,7 +48,7 @@ pip3 install -r requirements.txt
 ```
 python3 -m spacy download en
 ```
-7. Cpoy trained models (brain and pth files) to the correct path
+7. Download the pretrained seq2seq and bert models from [here](https://drive.google.com/file/d/1mw0VENGVosXo0yct7KRXxq6LPNPVJDNT/view?usp=sharing) and [here](https://drive.google.com/file/d/1M5Go5VM-fsXpvYfPxMH1vvnphVa4hHBu/view?usp=sharing). Then ppoy the trained models (brain and pth files) to the correct path:
 ```
 cp <your brain file path> ./application/model/model.brain 
 AND
