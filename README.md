@@ -1,4 +1,4 @@
-# PhD_test
+## PhD_test
 My PhD programming test
 
 # Introduction
@@ -61,3 +61,5 @@ OR
 ./start.sh
 ```
 
+# Usage
+After get starting the server, a 
