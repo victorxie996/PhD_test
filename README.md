@@ -48,7 +48,13 @@ pip3 install -r requirements.txt
 ```
 python3 -m spacy download en
 ```
-7. run Flask server in virtual environment
+7. Cpoy trained models (brain and pth files) to the correct path
+```
+cp <your brain file path> ./application/model/model.brain 
+AND
+cp <your brain file path> ./application/model/epoch_1.pth 
+```
+8. run Flask server in virtual environment
 ```
 bash start.sh
 ```
