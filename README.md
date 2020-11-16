@@ -62,4 +62,4 @@ OR
 ```
 
 # Usage
-After get starting the server, a 
+After get starting the server, the server looks like: ![image](https://github.com/victorxie996/PhD_test/blob/main/demo/bug_img.png)
