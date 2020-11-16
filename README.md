@@ -76,9 +76,9 @@ Next, type the address on a broswer: http://127.0.0.1:5000/?text= ```the news yo
 Demonstration
 -------
 Lets say we want to input a news:
-```
-text= Billionaire Elon Musk has shared a time-lapse video of the setting up of his space exploration startup SpaceX's Falcon Heavy rocket. The rocket, which is dubbed by SpaceX as the world's most powerful rocket, is set to launch this month. Earlier, Musk said that the Falcon Heavy rocket will carry his 'midnight cherry' Tesla Roadster car to Mars.
-```
+
+text= Several Bengaluru civic workers protested in front of the Bruhat Bengaluru Mahanagara Palike Office on Tuesday alleging that the contractors haven't paid them since three months. They complained that the contractors haven't been marking their attendance and weren't providing them with the safety and cleaning equipment. They further alleged they aren't given an off even when they are sick.
+
 
 The output of the model looks like: 
 
