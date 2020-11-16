@@ -57,5 +57,7 @@ cp <your brain file path> ./application/model/epoch_1.pth
 8. run Flask server in virtual environment
 ```
 bash start.sh
+OR
+./start.sh
 ```
 
