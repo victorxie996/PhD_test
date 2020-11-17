@@ -38,7 +38,7 @@ git clone https://github.com/victorxie996/PhD_test.git
 ```
 cd PhD_test
 ```
-4. Create, activate and get into the virtual environment 
+4. Create, activate and get into the virtual environment:
 ```
 pip3 venv env. env\bin\activate
 
@@ -46,6 +46,9 @@ or
 
 .\env\Scripts\activate
 ```
+Once you get into the virtual environment, the directory should look like this ![image](https://github.com/victorxie996/PhD_test/blob/main/demo/env.png).
+
+
 5. Install required library
 ```
 pip3 install -r requirements.txt
