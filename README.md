@@ -4,11 +4,13 @@ My PhD programming test
 
 Introduction
 -------
-We use a seq2seq abstractive text summarisation model based on GRU encoder decoder with attention mechanism.
+The project was built using Pytorch, Spacy and torchtext. Pytorch is used to build the summarization model, while Spacy and torchtext was used to pre-process data. We use a seq2seq abstractive text summarisation model based on GRU encoder decoder with attention mechanism. To identify the authenticity of the news, we use the fine-tuned pretrained BERT model.
+
+In the 'Notebook' foler, it has the training and testing source code for both seq2seq and fine-tuned BERT models. In the 'Application' folder, we only use the test files and the pretrained models to run the App.
 
 Base Info
 -------
-Data: News summary dataset obtained from [Kaggle](https://www.kaggle.com/sunnysai12345/news-summary?select=news_summary_more.csv)
+Data: News summary dataset obtained from [Kaggle](https://www.kaggle.com/sunnysai12345/news-summary?select=news_summary_more.csv); Fake and real news dataset obtained from [Kaggle](https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset).
 
 
 Requirements
