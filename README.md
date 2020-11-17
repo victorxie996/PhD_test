@@ -46,7 +46,7 @@ or
 
 .\env\Scripts\activate
 ```
-Once you get into the virtual environment, the directory should look like this ![image](https://github.com/victorxie996/PhD_test/blob/main/demo/env.png).
+Once you get into the virtual environment, the directory should look something like this ![image](https://github.com/victorxie996/PhD_test/blob/main/demo/env.png) with the green env letters.
 
 
 5. Install required library
