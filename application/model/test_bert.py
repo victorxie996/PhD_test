@@ -4,16 +4,16 @@ from transformers import BertTokenizer
 from application.model.model_bert import Model
 
 def preprocess_sentence(sentence):
-    """处理sentence获取bert格式的输入（indexed_tokens, segments_ids）
+    """Process sentence to get input in bert format（indexed_tokens, segments_ids）
     """
-    # 处理title，获取索引
+    # Process title, get index
     tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
     tokenized_text = tokenizer.tokenize(sentence)[:128 - 2]
-    # 补[PAD]
+    # get [PAD]
     if len(tokenized_text) < 128 - 1:
         tokenized_text.extend(['[PAD]' for _ in range(128 - len(tokenized_text) - 1)])
     indexed_tokens = tokenizer.convert_tokens_to_ids(tokenized_text)
-    # 这里只有单句，segments_ids全为0
+    
     segments_ids = [0 for _ in range(len(indexed_tokens))]
 
     return torch.tensor(indexed_tokens), torch.tensor(segments_ids)
