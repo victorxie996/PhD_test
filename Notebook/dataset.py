@@ -10,6 +10,9 @@ import tqdm
 from transformers import BertTokenizer
 import json
 
+#############################
+# pre processing data for true/fake news dataset
+#############################
 class NewsDataset(Dataset):
     def __init__(self, real_news_path='data/True.csv', fake_news_path='data/Fake.csv', bert_pretrained_name='bert-base-uncased', max_seq_len=128):
 
