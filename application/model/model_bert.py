@@ -28,8 +28,8 @@ class Model(nn.Module):
         return x
 
 # title embedding
-# 输入为title句子，无需预处理
-# 这里用bert
+# Input as title sentence without preprocessing
+# use bert here
 class TitleEmbedding(nn.Module):
 
     def __init__(self, title_embedding_size=768, max_seq_len=512, bert_pretrained_name='bert-base-uncased'):
@@ -42,8 +42,6 @@ class TitleEmbedding(nn.Module):
         # encoded_layers.shape: (batchsize, max_seq_len, 768)
         encoded_layers, pooler_embedding = self.bert(indexed_tokens.detach(), segments_ids.detach())
 
-        # token embedding的平均值作为sentence embedding
-        # TODO 这里可调，先用[CLS]的embedding
         #embedding = encoded_layers.mean(dim=1)
         embedding = encoded_layers[:, 0, :]
 
