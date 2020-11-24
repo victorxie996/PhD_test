@@ -80,7 +80,7 @@ Next, type the address on a broswer: http://127.0.0.1:5000/?text= ```the news yo
 
 Demonstration
 -------
-Lets say we want to input a news:
+Lets say we want to input some news sentences:
 
 text= Several Bengaluru civic workers protested in front of the Bruhat Bengaluru Mahanagara Palike Office on Tuesday alleging that the contractors haven't paid them since three months. They complained that the contractors haven't been marking their attendance and weren't providing them with the safety and cleaning equipment. They further alleged they aren't given an off even when they are sick.
 
