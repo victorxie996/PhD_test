@@ -8,7 +8,7 @@ The project was built using Pytorch, Spacy and torchtext. Pytorch is used to bui
 
 In the 'Notebook' foler, it has the training and testing source code for both seq2seq and fine-tuned BERT models. In the 'Application' folder, we only use the test files and the pretrained models to run the App.
 
-Base Info
+Basic Info
 -------
 Data: News summary dataset obtained from [Kaggle](https://www.kaggle.com/sunnysai12345/news-summary?select=news_summary_more.csv); Fake and real news dataset obtained from [Kaggle](https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset).
 
